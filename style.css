@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+     display: flex;
+    justify-content: center;
+    background-color: #F7F6D3;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    text-align: center;
+    height: 160px;
+   width: 60%;
+    background-color: #1D546C;
+    margin-top: 2rem;
+
+}
+header h1{
+    color: #FFF57E;
+    font-family:'jacques Francios Shadow ' , serif ;
+    padding-top: 1.6rem;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      background: linear-gradient(gold , #1D546C);
+     background-clip: text;
+  color: transparent;
+}
+
+/* nav styling ........................................... */
+
+nav{
+    height: 40px;
+    width: 60%;
+    background-color: #406E81;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+.container{
+    width: 60%;
+    height: 60vh;
+   background-color: #1A3D64;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 300px 60px;
+    padding-block: 1rem;
+    
+}
+
+.box{
+    
+    border: burlywood 2px solid;
+    
+}
+.box1{
+    height:300px;
+    width: 300px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: white;
+    /* padding-block: 4rem; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.box1 h3{
+    color: #FFD41D;
+}
+.box2{
+    height:300px;
+    width: 300px;
+    background-image: url(images/mysecond.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.box3 p{
+    font-size: 2rem;
+    text-align: center;
+    color: yellow;
+}
+
+button{
+    background-color: #406E81;
+    margin-right: 0.5rem;
+}
+.ancr:hover{
+    color: chocolate;
+    border: 1px solid chartreuse;
+}
+.ancr:active{
+    color: blue;
+}
+
+.projects-section{
+    height: 600px;
+    width: 60%;
+    background-color: #005461;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-inline: 3rem;
+    padding-block: 2rem;
+}
+
+.my-projects{
+    border: white 2px solid;
+    grid-column: 1 / -1;
+    height: 100px;
+    text-align: center;
+    color: #FFD41D;
+    font-size: 2rem;
+    padding-top: 0.6rem;
+}
+
+.box{
+    border: wheat 2px solid;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.hov:hover{
+    background-color:white;
+    font-size: 3rem;
+    transition: ease-in 1s ;
+}
+.hov:active{
+    background-color: blue;
+    transition: ease-in ;
+}
+span{
+    color: #406E81;;
+}
