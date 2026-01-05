@@ -8,16 +8,32 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: wheat;
+    background-color: #E6E6E6;
 
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
 /* style for header  */
 
 header{
     height: 200px;
     background-color: #061E29;
     width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+      color: #F5F2F2;
+    font-family: Jacques Francois Shadow ;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      background: linear-gradient(#F5F2F2 , #1D546C);
+     background-clip: text;
+  color: transparent;
 }
 
 /* style for main content */
@@ -36,6 +52,23 @@ main{
     width: 30%;
     height: 100%;
     background-color: #0F2854;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left-side-bar p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+      background: linear-gradient(gold , #F5F2F2);
+     background-clip: text;
+  color: transparent;
+
+}
+.left-side-bar span{
+    padding-left: 10px;
 }
 /* style for right side bar */
 .right-side{
@@ -50,6 +83,9 @@ nav{
     height: 60px;
     width: 100%;
     background-color: #79C9C5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* style for hero-section */
@@ -86,16 +122,28 @@ nav{
 
 /* style for department heading */
 .heading{
+    text-align: center;
+    padding-top: 9px;
     height: 100px;
     background-color: #018790;
     grid-column: 1 / -1;
+     font-size: 3rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+      background: linear-gradient(gold , #F5F2F2);
+     background-clip: text;
+  color: transparent;
+
+
 }
 
 /* style for boxes inside department section */
 .box{
-    
     height: 300px;
     border: 2px solid wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
 
 } 
 
