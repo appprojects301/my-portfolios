@@ -119,7 +119,9 @@ nav{
    padding-inline: 10px;
    padding-block: 15px;
 }
-
+.department-section span{
+    color: #ED985F;
+}
 /* style for department heading */
 .heading{
     text-align: center;
