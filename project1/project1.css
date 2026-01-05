@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+
+}
+
+/* style for header  */
+
+header{
+    height: 200px;
+    background-color: #061E29;
+    width: 70%;
+}
+
+/* style for main content */
+main{
+    height: 80vh;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    margin-block: 10px;
+    
+  
+}
+
+/* style for left side bar  */
+.left-side-bar{
+    width: 30%;
+    height: 100%;
+    background-color: #0F2854;
+}
+/* style for right side bar */
+.right-side{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* style for nave bar */
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #79C9C5;
+}
+
+/* style for hero-section */
+.hero-section{
+    height: 100%;
+    background-color: #F5F5F5;
+    background-image: url(images/heroSection.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    background-position: left center;
+    animation: panImage 10s ease-in-out infinite alternate;
+}
+@keyframes panImage {
+    0%{
+        background-position: left center;
+    }
+    100%{
+        background-position: right center;
+    }
+    
+}
+/* style for department-section */
+.department-section{
+    height: auto;
+    background-color: #005461;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 16px;
+   padding-inline: 10px;
+   padding-block: 15px;
+}
+
+/* style for department heading */
+.heading{
+    height: 100px;
+    background-color: #018790;
+    grid-column: 1 / -1;
+}
+
+/* style for boxes inside department section */
+.box{
+    
+    height: 300px;
+    border: 2px solid wheat;
+
+} 
+
+
