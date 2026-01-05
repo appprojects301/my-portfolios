@@ -109,6 +109,15 @@ nav{
     
 }
 /* style for department-section */
+.hovr:hover{
+    border: 1px solid white;
+    transition: 1s ease-in ;
+    background-color: #00B7B5;
+}
+.hovr:active{
+    transition: 0.5s;
+    background-color: blue;
+}
 .department-section{
     height: auto;
     background-color: #005461;
